@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 85vw;
+  max-width: 35em;
+  padding: 3em;
+}
+.btn{
+  display: inline-block;
+  padding: 15px 20px;
+  background: red;
+  box-shadow: 0 0 10px red;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 40px;
+}
+p{
+  text-align: start;
+  line-height: 30px;
+}
+.highlight{
+  color: yellow;
+}
