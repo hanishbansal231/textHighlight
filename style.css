@@ -26,11 +26,12 @@ body{
   text-decoration: none;
   color: #fff;
   margin-top: 40px;
+  cursor: pointer;
 }
 p{
   text-align: start;
   line-height: 30px;
 }
 .highlight{
-  color: yellow;
+  background: yellow;
 }
